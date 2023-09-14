@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/tailwind.css"
+    />
+    <title>Frontend Mentor | GitHub user search app</title>
+  </head>
+  <body>
+    <main
+      class="font-space-mono min-h-screen bg-custom-very-light-gray py-8 px-6 sm:p-0 sm:pt-[140px] md:p-0 md:grid md:content-center"
+    >
+      <div class="sm:max-w-[573px] md:max-w-[730px] sm:mx-auto w-full">
+        <nav class="flex justify-between items-center">
+          <!-- title -->
+          <a href="./index.html">
+            <h1 class="text-custom-allmost-black text-[26px] font-bold">
+              devfinder
+            </h1>
+          </a>
+          <!-- theme switch container -->
+          <div
+            id="theme-switch"
+            class="cursor-pointer"
+          >
+            <!-- light -->
+            <div class="hidden">
+              <span>Light</span>
+              <img
+                src="./assets/images/icon-sun.svg"
+                alt="light icon"
+              />
+            </div>
+            <!-- dark -->
+            <div class="flex items-center gap-4">
+              <span class="text-custom-blue-gray">Dark</span>
+              <img
+                src="./assets/images/icon-moon.svg"
+                alt="light icon"
+              />
+            </div>
+          </div>
+        </nav>
+        <!-- search form -->
+        <form
+          id="search-form"
+          action=""
+          class="w-full mt-[35px] h-[60px] sm:h-[69px] relative shadow-custom-search rounded-[15px] flex p-[7px] sm:p-[9.5px] pl-[45px] sm:pl-20 bg-custom-super-light-gray"
+        >
+          <label
+            class="h-5 w-5 sm:h-6 sm:w-6 absolute left-4 sm:left-8 top-1/2 -translate-y-1/2"
+            for="search"
+          >
+            <img
+              class="h-full w-full object-contain"
+              src="./assets/images/icon-search.svg"
+              alt=""
+            />
+          </label>
+          <input
+            id="search"
+            autocomplete="off"
+            class="grow bg-transparent placeholder:text-custom-blue-gray text-custom-allmost-black outline-none mr-[7px] text-[13px] sm:text-[18px]"
+            type="search"
+            placeholder="Search GitHub username..."
+          />
+          <button
+            id="search-btn"
+            class="basis-[84px] shrink-0 sm:basis-[106px] bg-custom-blue rounded-[10px] text-[14px] sm:text-base font-bold text-custom-white relative z-10"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+        <!-- result -->
+        <section
+          id="user-container"
+          class="mt-4 sm:mt-6 md:min-h-[419px]"
+        ></section>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="./assets/js/main.js"
+    ></script>
+  </body>
+</html>
