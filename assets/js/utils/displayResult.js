@@ -1,5 +1,5 @@
 import { beautifyDate } from "./beautifyDate.js"
-import { startAnimations } from "../animations/initial.js"
+import { startAnimationsDynamic } from "../animations/initial-dynamic.js"
 import iconLocation from "../../images/icon-location.svg"
 import iconWebsite from "../../images/icon-website.svg"
 import iconTwitter from "../../images/icon-twitter.svg"
@@ -193,4 +193,6 @@ export const displayResult = async (data) => {
           </footer>
         </article>
   `
+  // start dynamic animations in the case, when successfull user-fetch happened
+  startAnimationsDynamic()
 }
