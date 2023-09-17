@@ -15,14 +15,16 @@ const lightBtn = get("#light")
 const darkBtn = get("#dark")
 
 const start = async (url) => {
-  // const data = await fetchUser(url)
+  const data = await fetchUser(url)
   displayResult(data)
   startAnimationsDynamic()
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   themeCheck()
-  start(localURL)
+  // start(localURL)
+  displayResult(data)
+  startAnimationsDynamic()
 })
 form.addEventListener("submit", (e) => {
   e.preventDefault()

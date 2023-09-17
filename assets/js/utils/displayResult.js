@@ -158,9 +158,11 @@ export const displayResult = async (data) => {
                 src="./assets/images/icon-website.svg"
                 alt=""
               />
-              <span class="text-custom-blue-gray dark:text-custom-white ${
-                blog ? `hover:underline cursor-pointer` : ``
-              }">${blog ? blog : `Not Available`}</span>
+              <a href="${
+                blog ? blog : ``
+              }" class="text-custom-blue-gray dark:text-custom-white ${
+    blog ? `hover:underline cursor-pointer` : ``
+  }">${blog ? blog : `Not Available`}</a>
             </div>
             <!-- twitter -->
             <div class="${twitter ? "" : "opacity-50"} relative pl-[33px]">
