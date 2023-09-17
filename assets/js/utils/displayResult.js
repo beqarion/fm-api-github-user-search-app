@@ -1,5 +1,9 @@
 import { beautifyDate } from "./beautifyDate.js"
 import { startAnimations } from "../animations/initial.js"
+import iconLocation from "../../images/icon-location.svg"
+import iconWebsite from "../../images/icon-website.svg"
+import iconTwitter from "../../images/icon-twitter.svg"
+import iconCompany from "../../images/icon-company.svg"
 import get from "./getElement.js"
 const userContainer = get("#user-container")
 const searchBtn = get("#search-btn")
@@ -144,7 +148,7 @@ export const displayResult = async (data) => {
             <div class="${lokation ? "" : "opacity-50"} relative pl-[33px]">
               <img
                 class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
-                src="./assets/images/icon-location.svg"
+                src=${iconLocation}
                 alt=""
               />
               <span class="text-custom-blue-gray dark:text-custom-white">${
@@ -155,7 +159,7 @@ export const displayResult = async (data) => {
             <div class="${blog ? "" : "opacity-50"} relative pl-[33px]">
               <img
                 class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
-                src="./assets/images/icon-website.svg"
+                src=${iconWebsite}
                 alt=""
               />
               <a href="${
@@ -168,7 +172,7 @@ export const displayResult = async (data) => {
             <div class="${twitter ? "" : "opacity-50"} relative pl-[33px]">
               <img
                 class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
-                src="./assets/images/icon-twitter.svg"
+                src=${iconTwitter}
                 alt=""
               />
               <span class="text-custom-blue-gray dark:text-custom-white">${
@@ -179,7 +183,7 @@ export const displayResult = async (data) => {
             <div class="${company ? "" : "opacity-50"} relative pl-[33px]">
               <img
                 class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
-                src="./assets/images/icon-company.svg"
+                src=${iconCompany}
                 alt=""
               />
               <span class="text-custom-blue-gray dark:text-custom-white">${
