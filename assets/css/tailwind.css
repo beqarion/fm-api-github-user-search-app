@@ -24,3 +24,19 @@ Fonts
   text-transform: uppercase;
   letter-spacing: 2.5px;
 }
+
+#moon {
+  @apply w-5 h-5;
+  mask: url("../images/icon-moon.svg") no-repeat center/100% 100%;
+}
+#sun {
+  @apply w-5 h-5;
+  mask: url("../images/icon-sun.svg") no-repeat center/100% 100%;
+}
+
+.dark-theme #light {
+  transform: translateY(100%);
+}
+.dark-theme #dark {
+  transform: translateY(100%);
+}
