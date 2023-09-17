@@ -116,7 +116,7 @@
             <!-- location -->
             <div class="${p?"":"opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${ke}
                 alt=""
               />
@@ -125,7 +125,7 @@
             <!-- github blog -->
             <div class="${c?"":"opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${Me}
                 alt=""
               />
@@ -134,7 +134,7 @@
             <!-- twitter -->
             <div class="${l?"":"opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${Te}
                 alt=""
               />
@@ -143,7 +143,7 @@
             <!-- github -->
             <div class="${d?"":"opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${Le}
                 alt=""
               />

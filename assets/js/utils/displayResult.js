@@ -147,7 +147,7 @@ export const displayResult = async (data) => {
             <!-- location -->
             <div class="${lokation ? "" : "opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${iconLocation}
                 alt=""
               />
@@ -158,7 +158,7 @@ export const displayResult = async (data) => {
             <!-- github blog -->
             <div class="${blog ? "" : "opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${iconWebsite}
                 alt=""
               />
@@ -171,7 +171,7 @@ export const displayResult = async (data) => {
             <!-- twitter -->
             <div class="${twitter ? "" : "opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${iconTwitter}
                 alt=""
               />
@@ -182,7 +182,7 @@ export const displayResult = async (data) => {
             <!-- github -->
             <div class="${company ? "" : "opacity-50"} relative pl-[33px]">
               <img
-                class="absolute left-0 bottom-0 top-0 object-cover h-full dark:brightness-[100]"
+                class="absolute left-0 bottom-0 top-0 object-cover dark:brightness-[100]"
                 src=${iconCompany}
                 alt=""
               />
