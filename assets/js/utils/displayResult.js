@@ -194,5 +194,5 @@ export const displayResult = async (data) => {
         </article>
   `
   // start dynamic animations in the case, when successfull user-fetch happened
-  startAnimationsDynamic()
+  // startAnimationsDynamic()
 }
