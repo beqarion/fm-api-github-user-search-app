@@ -13,7 +13,7 @@ export const iconToggle = () => {
   themeToggle.classList.toggle("dark-theme")
 }
 export const themeCheck = () => {
-  if (true || (!userTheme && isSystemThemeDark)) {
+  if (userTheme === "dark" || (!userTheme && isSystemThemeDark)) {
     document.documentElement.classList.add("dark")
     iconToggle()
     return

@@ -34,4 +34,4 @@ lightBtn.addEventListener("click", () => {
   themeSwitch()
 })
 
-// startAnimationsStatic()
+startAnimationsStatic()
